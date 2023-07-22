@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/resource_dark"
+    tools:context=".mainactivity1">
+
+    <TextView
+        android:id="@+id/welcometoAyurcare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="100dp"
+        android:gravity="center"
+        android:text="Welcome to Ayurcare"
+        android:textSize="60dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/userName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/resource_dark"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:drawablePadding="30dp"
+        android:hint="Enter your username"
+        android:padding="100dp"
+        android:textColor="@color/black"
+        android:textColorHighlight="@color/cardview_dark_background"
+        android:textSize="30dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawablePadding="8dp"
+        android:background="@drawable/resource_dark"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:hint="Enter your password"
+        android:textSize="50dp"
+        android:padding="100dp"
+        />
+
+    <Button
+        android:id="@+id/Login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Log In"
+        android:textSize="30dp"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/black"
+        android:layout_marginTop="30dp"
+        android:cornerRadius="20dp"
+        android:padding="20dp"
+        android:layout_marginLeft="300dp"
+        android:layout_marginRight="300dp"
+
+        />
+
+    <EditText
+        android:id="@+id/Forpas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="text"
+        android:text="Forgot passward?"
+        android:textSize="40dp"
+        android:padding="50dp"/>
+
+    <EditText
+        android:id="@+id/signin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:inputType="text"
+        android:text="or sign in with"
+        android:textSize="40dp"
+        android:padding="50dp"
+        tools:ignore="InvalidId" />
+
+
+</LinearLayout>
